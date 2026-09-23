@@ -1,0 +1,14 @@
+{
+  "component": "media-worker",
+  "status": "planned",
+  "executable": false,
+  "operations": [],
+  "requires_before_activation": [
+    "Canonical job API and versioned media job registry",
+    "Exact requested job claim, lease proof, heartbeat and fencing validation",
+    "Dedicated media queue consumer",
+    "Scoped media credential broker capability",
+    "Provider quota and cost limits",
+    "Real provider adapter and failure/reconciliation tests"
+  ]
+}

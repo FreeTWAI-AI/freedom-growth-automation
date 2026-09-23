@@ -1,0 +1,17 @@
+{
+  "campaign_id": "00000000-0000-4000-8000-000000000001",
+  "aggregate_version": 2,
+  "title": "示範：開源工具交流",
+  "audience": "想一起了解工具的社群會員",
+  "goal": "收集使用者對示範作品的回饋",
+  "draft_text": "這是本機預覽用的虛構活動，沒有對外發布。",
+  "source_snapshot": {
+    "kind": "manual_brief",
+    "brief": "虛構活動；無真人、無商品承諾、無真實成交資料。",
+    "provided_by": "00000000-0000-4000-8000-000000000002",
+    "evidence": "self_declared"
+  },
+  "source_sha256": "5f592f282f4713e584029a0b9563c5ce0f421f7be3e7bbac2e5b31206b4aa1a9",
+  "content_sha256": "61349bcdf250e3595e2a72178390d5c0f1360e02a2729f0f57db2d72713da0fb",
+  "shares": []
+}
