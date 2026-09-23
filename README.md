@@ -1,5 +1,21 @@
 # Freedom Growth Automation
 
+<!-- freedom-repository-guide:start -->
+## 在自由工坊的位置
+
+[自由工坊](https://freetwai.com) 讓會員先完成定位、選擇公會並領取 Repo 技能書，再以供貨、商店、開源作品、行銷與小隊共同完成成果。
+
+行銷公會的活動草稿、來源引用與人工分享紀錄工具。 已提供 campaign helpers、文案／LINE 文字離線預覽與人工分享紀錄接線。
+
+沒有 LINE 傳訊、自動社群發布、背景 worker 排程、真實流量統計或影片渲染。
+
+本 repo 的維護者負責「行銷公會的活動草稿、來源引用與人工分享紀錄工具。」這個模組；公會職稱與自填 GitHub slug 不授予寫入權。
+
+程式／內容入口：[src/index.mjs](src/index.mjs)、[services/campaign-worker/](services/campaign-worker/)、[services/publication-worker/](services/publication-worker/)、[services/media-worker/](services/media-worker/)、[packages/channel-adapters/](packages/channel-adapters/)。協作先讀 [CONTRIBUTING.md](CONTRIBUTING.md)，讓 Agent 讀 [AGENTS.md](AGENTS.md)；從[本倉 Issues](https://github.com/FreeTWAI-AI/freedom-growth-automation/issues)認領、[查看既有 PR](https://github.com/FreeTWAI-AI/freedom-growth-automation/pulls)避免重工。
+
+活動與分享紀錄在中央平台；這裡組合／預覽公開或已授權資料。不保存會員 DB；文字 preview 不代表已發布、已送達或已有成效。 跨 repo 的協定由[中央平台](https://github.com/FreeTWAI-AI/freedom-platform)維護。
+<!-- freedom-repository-guide:end -->
+
 行銷模組的可重用模板與 Platform API client helpers。這個 repo 是
 `freedom-platform` 的使用端；會員、權限、商品、作品、活動草稿與分享紀錄仍由
 Platform 和中央資料庫管理，不另建帳號或第二份資料庫。
